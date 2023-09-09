@@ -1,0 +1,148 @@
+.Container {
+  width: 100%;
+  height: 100%;
+}
+
+.PokemonContainer {
+  width: 100%;
+  margin-inline: auto;
+  text-align: center;
+  background-repeat: repeat;
+  margin-top: 0px;
+  height: 100vh;
+  margin-bottom: 10px;
+}
+
+.PokemonSelect {
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: rgb(231, 144, 15);
+  width: 250px;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.4);
+  height: 60px;
+}
+
+.PokemonImages {
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.PokemonAnime-0 {
+  animation: jump 0.5s ease-in-out infinite alternate;
+}
+.PokemonAnime-1 {
+  animation: jump 0.5s ease-in-out infinite alternate;
+  animation-delay: 0.2s;
+}
+
+.PokemonAnime-2 {
+  animation: jump 0.5s ease-in-out infinite alternate;
+  animation-delay: 0.3s;
+}
+
+.PokemonAnime-3 {
+  animation: jump 0.5s ease-in-out infinite alternate;
+}
+
+.PokemonAnime-4 {
+  animation: jump 0.5s ease-in-out infinite alternate;
+  animation-delay: 0.2s;
+}
+
+.PokemonAnime-5 {
+  animation: jump 0.5s ease-in-out infinite alternate;
+  animation-delay: 0.3s;
+}
+
+.WriteMessage {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  color: rgb(231, 144, 15);
+  -webkit-text-stroke: 0.6px rgb(2, 2, 21);
+}
+.WriteMessageArea {
+  width: min(500px, 80%);
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "DotGothic16", sans-serif;
+}
+
+.CompleteButton {
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: rgb(231, 144, 15);
+  margin-bottom: 30px;
+  width: 250px;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.4);
+  height: 60px;
+}
+
+.onRoad {
+  margin: 0;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.PokemonContainer h1 {
+  margin-block: 0px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  -webkit-text-stroke: 3px blue;
+  color: yellow;
+  font-size: 60px;
+  font-family: "Pokemon Solid", sans-serif;
+  line-height: 1;
+}
+
+.WriteAddresseeArea {
+  width: min(500px, 80%);
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "DotGothic16", sans-serif;
+}
+
+.colorSelect {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.creamColor {
+  background-color: #ffedb3;
+}
+
+.pinkColor {
+  background-color: #ebbce6;
+}
+
+.blueColor {
+  background-color: #d7f6f7;
+}
