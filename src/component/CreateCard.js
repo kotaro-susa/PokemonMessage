@@ -27,7 +27,7 @@ export const CreateCard = ({
       const PokemonImage = pokemonData[RandomNumber].sprites.front_default;
       result.push(PokemonImage);
     }
-    console.log(result);
+    setTimeout(()=>{window.scrollBy(0, 500);},10);
     setPokemonSelected(false);
     return setPokemonImages(result);
   };
@@ -89,9 +89,6 @@ export const CreateCard = ({
                 </option>
               </select>
             </div>{" "}
-            <button className="PokemonSelect" onClick={() => RandomPokemon()}>
-              押してポケモンを選ぶ
-            </button>
             <div className="PokemonImgContainer">
               {PokemonImages.map((PokemonImage, index) => {
                 const className = `PokemonAnime-${index}`;
@@ -105,6 +102,9 @@ export const CreateCard = ({
                 );
               })}
             </div>
+            <button className="PokemonSelect" onClick={() => RandomPokemon()}>
+              押してポケモンを選ぶ
+            </button>
           </div>
 
           {PokemonSelected ? (
